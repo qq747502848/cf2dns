@@ -26,13 +26,13 @@ DOMAINS = {
 }
 
 #解析生效条数 免费的DNSPod相同线路最多支持2条解析
-AFFECT_NUM = 2
+AFFECT_NUM = 20
 
 #DNS服务商 如果使用DNSPod改为1 如果使用阿里云解析改成2
 DNS_SERVER = 1
 
 #解析生效时间，默认为600秒 如果不是DNS付费版用户 不要修改!!!
-TTL = 600
+TTL = 60
 
 #API 密钥
 #腾讯云后台获取 https://console.cloud.tencent.com/cam/capi
